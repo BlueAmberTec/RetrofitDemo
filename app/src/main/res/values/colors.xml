@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="bg">#f4f4f2</color>
+    <color name="line">#c6c6c5</color>
+    <color name="black">#000</color>
+    <color name="gangkou">#342316</color>
+    <color name="red1">#ED5565</color>
+    <color name="red2">#DA4453</color>
+    <color name="cheng1">#FC6E51</color>
+    <color name="cheng2">#E9573f</color>
+    <color name="yellow1">#FFCE54</color>
+    <color name="yellow2">#F6BB42</color>
+    <color name="green1">#A0D468</color>
+    <color name="green2">#8CC152</color>
+    <color name="graylight1">#F5FAF7</color>
+    <color name="graylight2">#E6E9ED</color>
+    <color name="graymiddle1">#CCd1D9</color>
+    <color name="graymiddel2">#AAb3BD</color>
+    <color name="graydark1">#656D78</color>
+    <color name="graydark2">#434A54</color>
+    <color name="bluelight1">#4FC1E9</color>
+    <color name="bluelight2">#3BAFDA</color>
+    <color name="blueyixin1">#48CFAD</color>
+    <color name="blueyixin2">#37BC98</color>
+    <color name="bluedark1">#59DCEC</color>
+    <color name="bluedark2">#4A89DC</color>
+
+
+    <!--下载弹框进度-->
+    <color name="no1_gray_light">#e2e2e2</color>
+    <color name="no2_orange">#fe7d44</color>
+    <color name="no3_white">#ffffff</color>
+    <color name="no4_black">#000000</color>
+    <color name="no5_gray_silver">#b4b4b4</color>
+
+</resources>
