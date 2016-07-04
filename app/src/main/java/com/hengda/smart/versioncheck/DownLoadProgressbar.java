@@ -8,7 +8,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 
-import com.hengda.smart.retrofitdemo.R;
+import com.hengda.smart.activity.R;
 
 
 /**

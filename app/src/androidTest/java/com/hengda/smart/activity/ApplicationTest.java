@@ -1,4 +1,4 @@
-package com.hengda.smart.retrofitdemo;
+package com.hengda.smart.activity;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

@@ -1,4 +1,4 @@
-package com.hengda.smart.retrofitdemo;
+package com.hengda.smart.activity;
 
 import android.app.ActivityManager;
 import android.content.Context;
@@ -23,6 +23,7 @@ import com.hengda.smart.widget.animnew.ZoomOutExit;
 import com.hengda.smart.widget.simple.NormalDialog;
 import com.hengda.smart.widget.simple.OnBtnClickL;
 
+import org.kymjs.kjframe.ui.ViewInject;
 import org.kymjs.kjframe.utils.KJLoger;
 import org.kymjs.kjframe.utils.SystemTool;
 
@@ -81,9 +82,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    //===========================================================================
+    //======================================================================
     //===========================版本升级====================================
-    //===========================================================================
+    //======================================================================
 
     /**
      * 显示下载弹框
@@ -169,7 +170,6 @@ public class MainActivity extends AppCompatActivity {
                     .equals(service.service.getClassName())){
                 return true;
             }
-
         }
         return false;
     }
@@ -201,13 +201,12 @@ public class MainActivity extends AppCompatActivity {
 
                 KJLoger.debug(versionInfo.toString());
                 if(versionInfo.getStatus().equals(HDVersionConfig.STATUS.CODE_ERROR)){
-
+                    ViewInject.toast(versionInfo.getMsg());
                 }else if(versionInfo.getStatus().equals(HDVersionConfig.STATUS.CODE_NEW_VERSION)){
                     downloadAPKDialog(versionInfo.getVersionInfo(),style);
                 }else if(versionInfo.getStatus().equals(HDVersionConfig.STATUS.CODE_NO_UP_)){
-
+                    ViewInject.toast(versionInfo.getMsg());
                 }
-
             }
         });
     }

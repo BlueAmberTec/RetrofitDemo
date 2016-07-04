@@ -8,7 +8,7 @@ import retrofit2.http.POST;
 import rx.Observable;
 
 /**
- * Created by blueamer on 1/7/16.
+ * Created by wzq on 1/7/16.
  */
 public interface ApiService {
 

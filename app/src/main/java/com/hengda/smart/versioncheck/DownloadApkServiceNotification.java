@@ -15,7 +15,7 @@ import android.widget.RemoteViews;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.hengda.smart.retrofitdemo.R;
+import com.hengda.smart.activity.R;
 
 import java.io.File;
 import java.io.FileOutputStream;

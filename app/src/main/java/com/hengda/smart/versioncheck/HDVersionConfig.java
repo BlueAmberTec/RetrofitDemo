@@ -15,9 +15,9 @@ public class HDVersionConfig {
     // BASEURL
     public static final String BASE_URL  = "http://101.200.234.14/APPCloud/";
     // APPKEY
-    public static final String APP_KEY   = "205bef8446f0d56390e7cfe25a9f80c4";
+    public static final String APP_KEY   = "7d3d77d0b281899ea8506ddc5cf5ad35";
     // ScretKey
-    public static final String APP_SECRET= "89d37355267762c785019d65598ed91c";
+    public static final String APP_SECRET= "59f6bef4c1525d00983be01e452dae9b";
     //PATH
     public static final String  DOWNLOADPATH =BASEPATH+"/HD_Demo/" ;
 

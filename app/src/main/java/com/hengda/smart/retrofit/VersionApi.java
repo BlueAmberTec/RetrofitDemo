@@ -8,7 +8,7 @@ import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
 /**
- *  blueAmer 20160701
+ * Created by wzq on 1/7/16.
  */
 public final class VersionApi {
 
